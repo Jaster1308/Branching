@@ -6,7 +6,7 @@ def camelcase(word):
 
 def display_banner():
     '''Display program name in a banner'''
-    msg = 'AWESOMe camelCaseGenerator PROGRAM'
+    msg = 'AWESOME camelCaseGenerator PROGRAM'
     stars = '*' * len(msg)
     print('\n', stars, '\n', msg, '\n', stars, '\n')
 
