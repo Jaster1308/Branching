@@ -4,14 +4,19 @@ def camelcase(word):
     # Slices don't produce index out of bounds errors.
     # So this still works on empty strings, strings of length 1
 
+def display_instructions:
+    print("Enter a sentence to convert to camelcase")
+
 def display_banner():
     '''Display program name in a banner'''
     msg = 'AWESOME camelCaseGenerator PROGRAM'
     stars = '*' * len(msg)
     print('\n', stars, '\n', msg, '\n', stars, '\n')
 
+
 def main():
 
+    display_instructions()
     display_banner()
 
     sentence = input('Enter your sentence:  ')
