@@ -4,7 +4,7 @@ def camelcase(word):
     # Slices don't produce index out of bounds errors.
     # So this still works on empty strings, strings of length 1
 
-def display_instructions:
+def display_instructions():
     print("Enter a sentence to convert to camelcase")
 
 def display_banner():
